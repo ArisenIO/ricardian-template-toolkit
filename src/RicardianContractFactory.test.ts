@@ -1,6 +1,6 @@
 import { RicardianContractFactory } from './RicardianContractFactory'
 import {
-  complexEosioTokenAbi,
+  complexArisenTokenAbi,
   complexExpectedHtml,
   complexExpectedMetadata,
   complexTransferTransaction,
@@ -8,7 +8,7 @@ import {
 
 const complexMetadata = JSON.parse(complexExpectedMetadata)
 const complexTransaction = JSON.parse(complexTransferTransaction)
-const complexAbi = JSON.parse(complexEosioTokenAbi)
+const complexAbi = JSON.parse(complexArisenTokenAbi)
 
 describe('RicardianContractFactory', () => {
 

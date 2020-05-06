@@ -9,7 +9,7 @@
     "context_free_actions": [],
     "actions": [
       {
-        "account": "eosio.token",
+        "account": "arisen.token",
         "name": "multitransf",
         "authorization": [
           {
@@ -21,18 +21,18 @@
           "from": "bobsmith",
           "to": "alicejones",
           "quantities": [
-            "123.0000 EOS",
+            "123.0000 RIX",
             "456.0000 ABC",
             "789.0000 DEF"
           ],
           "memos": [
-            "<i>Super</i> EOS",
+            "<i>Super</i> RIX",
             "I know you like <strong>ABC</strong> tokens"
           ]
         }
       },
       {
-        "account": "eosio.token",
+        "account": "arisen.token",
         "name": "transfer",
         "authorization": [
           {
@@ -43,7 +43,7 @@
         "data": {
           "from": "alicejones",
           "to": "bobsmith",
-          "quantity": "123.0000 EOS",
+          "quantity": "123.0000 RIX",
           "memo": "Testing."
         }
       }

@@ -1,10 +1,10 @@
 import { Abi } from '../../interfaces'
 import { RicardianContractProcessorImpl } from './RicardianContractProcessorImpl'
 
-import { eosioTokenAbi, transferTransaction } from '../../testfixtures/fixtures'
+import { arisenTokenAbi, transferTransaction } from '../../testfixtures/fixtures'
 
 const transaction = JSON.parse(transferTransaction)
-const abi = JSON.parse(eosioTokenAbi)
+const abi = JSON.parse(arisenTokenAbi)
 
 // tslint:disable:max-line-length
 describe('RicardianContractProcessorImp - v0.1', () => {

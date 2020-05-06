@@ -3,19 +3,19 @@ import { RicardianContractRenderError } from '../../RicardianContractRenderError
 import { RicardianContractProcessorImpl } from './RicardianContractProcessorImpl'
 
 import {
-  complexEosioTokenAbi,
+  complexArisenTokenAbi,
   complexExpectedHtml,
   complexExpectedMetadata,
   complexTransferTransaction,
 } from '../../testfixtures/complex-fixtures'
-import { eosioTokenAbi, transferTransaction } from '../../testfixtures/fixtures'
+import { arisenTokenAbi, transferTransaction } from '../../testfixtures/fixtures'
 
 const complexMetadata = JSON.parse(complexExpectedMetadata)
 const complexTransaction = JSON.parse(complexTransferTransaction)
-const complexAbi = JSON.parse(complexEosioTokenAbi)
+const complexAbi = JSON.parse(complexArisenTokenAbi)
 
 const transaction = JSON.parse(transferTransaction)
-const abi = JSON.parse(eosioTokenAbi)
+const abi = JSON.parse(arisenTokenAbi)
 
 const ricardianMetadata: ContractMetadata = {
   spec_version: '0.0.0',
@@ -27,12 +27,12 @@ const ricardianMetadata: ContractMetadata = {
 const ricardianHtml: string = `<h2>Transfer Terms & Conditions</h2>
 I, <div class=\"variable data\">bobsmith</div>, certify the following to be true to the best of my knowledge:<br />
 <ol>
-<li>I certify that <div class=\"variable data\">123.0000 EOS</div> is not the proceeds of fraudulent or violent activities.</li>
+<li>I certify that <div class=\"variable data\">123.0000 RIX</div> is not the proceeds of fraudulent or violent activities.</li>
 <li>I certify that, to the best of my knowledge, <div class=\"variable data\">alicejones</div> is not supporting initiation of violence against others.</li>
-<li>I have disclosed any contractual terms & conditions with respect to <div class=\"variable data\">123.0000 EOS</div> to <div class=\"variable data\">alicejones</div>.</li>
+<li>I have disclosed any contractual terms & conditions with respect to <div class=\"variable data\">123.0000 RIX</div> to <div class=\"variable data\">alicejones</div>.</li>
 </ol>
 I understand that funds transfers are not reversible after the <div class=\"variable transaction\">0</div> seconds or other delay as configured by <div class=\"variable data\">bobsmith</div>\'s permissions.<br />
-If this action fails to be irreversibly confirmed after receiving goods or services from \'<div class=\"variable data\">alicejones</div>\', I agree to either return the goods or services or resend <div class=\"variable data\">123.0000 EOS</div> in a timely manner.<br />
+If this action fails to be irreversibly confirmed after receiving goods or services from \'<div class=\"variable data\">alicejones</div>\', I agree to either return the goods or services or resend <div class=\"variable data\">123.0000 RIX</div> in a timely manner.<br />
 <div class=\"variable clauses\">You are sending this transfer with the following memo: <div class=\"variable data\">Testing.</div></div><br />
 Oh, and one more thing...<br />
 <div class=\"variable clauses\">I, <div class=\"variable data\">bobsmith</div>, swear by the moon and the stars in the sky<br />
@@ -42,7 +42,7 @@ I\'ll be there<br />
 For better or worse, till death do us part<br />
 I\'ll love you with every beat of my heart<br />
 And I swear</div><br />
-<div class=\"variable clauses\"><img src=\"https://files.readme.io/aeb2530-small-logo_2x.png#HA8HG03SH3R3\" alt=\"EOS ricardian_contract_images\" /></div><br />
+<div class=\"variable clauses\"><img src=\"https://files.readme.io/aeb2530-small-logo_2x.png#HA8HG03SH3R3\" alt=\"RIX ricardian_contract_images\" /></div><br />
 `
 // tslint:enable:max-line-length
 
@@ -130,7 +130,7 @@ describe('RicardianContractProcessorImp - v0.0', (): void => {
 
     it('handles token symbols properly', () => {
       // tslint:disable-next-line:max-line-length
-      const expectedHtml = `<h2>Transfer Terms & Conditions</h2>\nThis contract describes the transfer of <div class=\"variable data\">EOS</div> tokens<br />\n`
+      const expectedHtml = `<h2>Transfer Terms & Conditions</h2>\nThis contract describes the transfer of <div class=\"variable data\">RIX</div> tokens<br />\n`
       const newAbi: Abi = {
         ...abi,
         actions: [
@@ -153,7 +153,7 @@ describe('RicardianContractProcessorImp - v0.0', (): void => {
 
     it('handles unwrapped token symbols properly', () => {
       // tslint:disable-next-line:max-line-length
-      const expectedHtml = `<h2>Transfer Terms & Conditions</h2>\nThis contract describes the transfer of EOS tokens<br />\n`
+      const expectedHtml = `<h2>Transfer Terms & Conditions</h2>\nThis contract describes the transfer of RIX tokens<br />\n`
       const newAbi: Abi = {
         ...abi,
         actions: [

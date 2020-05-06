@@ -10,7 +10,7 @@ icon: https://a.com/token-transfer.png#00506E08A55BCF269FE67F202BBC08CFF55F9E3C7
 
 ![header-img](https://cdn-images-1.medium.com/max/900/1*zkkZqd1_ShN9rRqBG_Wu3A@2x.png#HA8HG03SH3R3HA8HG03SH3R3HA8HG03SH3R3)
 
-<p>This contract action is <strong>NOT</strong> a real one, and not related to \`eosio.token\` at all.<br/>
+<p>This contract action is <strong>NOT</strong> a real one, and not related to \`arisen.token\` at all.<br/>
 Just an example of testing all the contract parsings with handlebars.</p>
 
 ## Transfer Terms & Conditions
@@ -88,7 +88,7 @@ export const complexTransferTransaction: string = `{
   "context_free_actions": [],
   "actions": [
     {
-      "account": "eosio.token",
+      "account": "arisen.token",
       "name": "multitransf",
       "authorization": [
         {
@@ -99,12 +99,12 @@ export const complexTransferTransaction: string = `{
       "data": {
         "from": "alicejones",
         "to": "bobsmith",
-        "quantities": ["123.0000 EOS", "456.0000 ABC", "789.0000 DEF"],
-        "memos": ["<i>Super</i> EOS", "I know you like <strong>ABC</strong> tokens"]
+        "quantities": ["123.0000 RIX", "456.0000 ABC", "789.0000 DEF"],
+        "memos": ["<i>Super</i> RIX", "I know you like <strong>ABC</strong> tokens"]
       }
     },
     {
-      "account": "eosio.token",
+      "account": "arisen.token",
       "name": "transfer",
       "authorization": [
         {
@@ -115,7 +115,7 @@ export const complexTransferTransaction: string = `{
       "data": {
         "from": "bobsmith",
         "to": "alicejones",
-        "quantity": "123.0000 EOS",
+        "quantity": "123.0000 RIX",
         "memo": "Testing."
       }
     }
@@ -123,7 +123,7 @@ export const complexTransferTransaction: string = `{
   "transaction_extensions": []
 }`
 
-export const complexEosioTokenAbi: string = `{
+export const complexarisenTokenAbi: string = `{
   "types": [
     {
       "type": "name",
@@ -282,7 +282,7 @@ export const complexEosioTokenAbi: string = `{
       ]
     }
   ],
-  "version": "eosio::abi/1.0",
+  "version": "arisen::abi/1.0",
   "abi_extensions": [],
   "error_messages": [],
   "ricardian_clauses": [
@@ -292,7 +292,7 @@ export const complexEosioTokenAbi: string = `{
     },
     {
       "id": "ricardian_contract_images",
-      "body": "![EOS ricardian_contract_images](https://files.readme.io/aeb2530-small-logo_2x.png#HA8HG03SH3R3)"
+      "body": "![RIX ricardian_contract_images](https://files.readme.io/aeb2530-small-logo_2x.png#HA8HG03SH3R3)"
     },
     {
       "id": "ricardian_clause_interpolations",
@@ -312,7 +312,7 @@ export const complexExpectedMetadata =
 export const complexExpectedHtml =
 `<h1>Super Multi Transfer with whole ABI Meta Data</h1>
 <img src="https://cdn-images-1.medium.com/max/900/1*zkkZqd1_ShN9rRqBG_Wu3A@2x.png#HA8HG03SH3R3HA8HG03SH3R3HA8HG03SH3R3" alt="header-img" /><br />
-<p>This contract action is <strong>NOT</strong> a real one, and not related to <code>eosio.token</code> at all.<br /><br />
+<p>This contract action is <strong>NOT</strong> a real one, and not related to <code>arisen.token</code> at all.<br /><br />
 Just an example of testing all the contract parsings with handlebars.</p><br />
 <h2>Transfer Terms & Conditions</h2>
 I, <div class="variable data">alicejones</div>, certify the following to be true to the best of my knowledge:<br />
@@ -323,12 +323,12 @@ I, <div class="variable data">alicejones</div>, certify the following to be true
 </ol>
 The transfered tokens are:<br />
 <ul>
-<li>0: <div class="variable data"><i>Super</i> EOS</div> <div class="variable data">123.0000 EOS</div></li>
+<li>0: <div class="variable data"><i>Super</i> RIX</div> <div class="variable data">123.0000 RIX</div></li>
 <li>1: <div class="variable data">I know you like <strong>ABC</strong> tokens</div> <div class="variable data">456.0000 ABC</div></li>
 <li>2: <div class="variable data"></div> <div class="variable data">789.0000 DEF</div></li>
 </ul>
 And these are the reasons:<br />
-<div class="variable data"><i>Super</i> EOS</div><br />
+<div class="variable data"><i>Super</i> RIX</div><br />
 <div class="variable data">I know you like <strong>ABC</strong> tokens</div><br />
 I understand that funds transfers are not reversible after the <div class="variable transaction">0</div> seconds or other delay as configured by <div class="variable data">alicejones</div>\'s permissions.<br />
 If this action fails to be irreversibly confirmed after receiving goods or services from \'<div class="variable data">bobsmith</div>\', I agree to either return the goods or services or resend all over again in a timely manner.<br />
@@ -344,13 +344,13 @@ If this action fails to be irreversibly confirmed after receiving goods or servi
 </ul>
 <h3>Action Metadata</h3>
 <ul>
-<li>account: <div class="variable action">eosio.token</div><br /></li>
+<li>account: <div class="variable action">arisen.token</div><br /></li>
 <li>name: <div class="variable action">multitransf</div><br /></li>
 <li>authorization: <div class="variable action">[object Object]</div><br /></li>
 <li>authorization.[0].actor: <div class="variable action">alicejones</div><br /></li>
 <li>authorization.[0].permission: <div class="variable action">active</div><br />
 <h3>That\'s not all!!! :)</h3>
-I\'m also sending you <div class="variable transaction">123.0000 EOS</div> - because <div class="variable transaction">Testing.</div><br /></li>
+I\'m also sending you <div class="variable transaction">123.0000 RIX</div> - because <div class="variable transaction">Testing.</div><br /></li>
 </ul>
 <h4>Transaction Contract Clauses</h4>
 <div class="variable clauses">I, <div class="variable data">alicejones</div>, swear by the moon and the stars in the sky<br />
@@ -360,6 +360,6 @@ I\'ll be there<br />
 For better or worse, till death do us part<br />
 I\'ll love you with every beat of my heart<br />
 And I swear</div><br />
-<div class="variable clauses"><img src="https://files.readme.io/aeb2530-small-logo_2x.png#HA8HG03SH3R3" alt="EOS ricardian_contract_images" /></div><br />
+<div class="variable clauses"><img src="https://files.readme.io/aeb2530-small-logo_2x.png#HA8HG03SH3R3" alt="RIX ricardian_contract_images" /></div><br />
 <div class="variable clauses">You are sending this transfer from the account: <div class="variable data">alicejones</div></div><br />
 `

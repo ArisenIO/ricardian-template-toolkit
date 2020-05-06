@@ -1,10 +1,10 @@
 import { Abi } from '../../interfaces'
 import { RicardianContractProcessorImpl } from './RicardianContractProcessorImpl'
 
-import { eosioTokenAbi, transferTransaction } from '../../testfixtures/fixtures'
+import { arisenTokenAbi, transferTransaction } from '../../testfixtures/fixtures'
 
 const transaction = JSON.parse(transferTransaction)
-const abi = JSON.parse(eosioTokenAbi)
+const abi = JSON.parse(arisenTokenAbi)
 
 // tslint:disable:max-line-length
 describe('RicardianContractProcessorImp - v0.2', () => {
@@ -14,7 +14,7 @@ describe('RicardianContractProcessorImp - v0.2', () => {
     const expectedHtml =
 `<h2>We got a action over here!</h2>
 <pre><code>{
-  "account": "eosio.token",
+  "account": "arisen.token",
   "name": "transfer",
   "authorization": [
     {
@@ -26,7 +26,7 @@ describe('RicardianContractProcessorImp - v0.2', () => {
   "data": {
     "from": "bobsmith",
     "to": "alicejones",
-    "quantity": "123.0000 EOS",
+    "quantity": "123.0000 RIX",
     "memo": "Testing.",
     "$metadata": {
       "summary": "Transfer from <div class="variable data">bobsmith</div> to <div class="variable data">alicejones</div>"

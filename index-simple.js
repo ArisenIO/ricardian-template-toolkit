@@ -1,8 +1,8 @@
 const { RicardianContractFactory } = require('./dist/RicardianContractFactory')
-const { eosioTokenAbi, transferTransaction } = require('./dist/testfixtures/fixtures')
+const { arisenTokenAbi, transferTransaction } = require('./dist/testfixtures/fixtures')
 
 const transaction = JSON.parse(transferTransaction)
-const abi = JSON.parse(eosioTokenAbi)
+const abi = JSON.parse(arisenTokenAbi)
 
 /* eslint-disable no-console */
 const factory = new RicardianContractFactory()

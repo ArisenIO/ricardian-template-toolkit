@@ -14,15 +14,15 @@ describe('indexTransaction Helper', (): void => {
 
 describe('extractSymbolCode Helper', (): void => {
   it('extracts the symbol code from an asset', (): void => {
-    const asset = '2.001 EOS'
+    const asset = '2.001 RIX'
     const code = helpers.extractSymbolCode(asset)
-    expect(code).toEqual('EOS')
+    expect(code).toEqual('RIX')
   })
 
   it('extracts the symbol code from a symbol', (): void => {
-    const symbol = '4,EOS'
+    const symbol = '4,RIX'
     const code = helpers.extractSymbolCode(symbol)
-    expect(code).toEqual('EOS')
+    expect(code).toEqual('RIX')
   })
 
   it('returns empty string on improperly formatted input', (): void => {

@@ -3,10 +3,10 @@ import { parseAsset } from './helpers'
 
 describe('parseAsset', () => {
   it('parses asset with int amount', () => {
-    const asset = '40 EOS'
+    const asset = '40 RIX'
     const expectedAsset = {
       amount: '40',
-      symbol: 'EOS',
+      symbol: 'RIX',
     }
 
     const parsedAsset = parseAsset(asset)
@@ -14,10 +14,10 @@ describe('parseAsset', () => {
   })
 
   it('parses asset with float amount', () => {
-    const asset = '40.123 EOS'
+    const asset = '40.123 RIX'
     const expectedAsset = {
       amount: '40.123',
-      symbol: 'EOS',
+      symbol: 'RIX',
     }
 
     const parsedAsset = parseAsset(asset)
@@ -25,7 +25,7 @@ describe('parseAsset', () => {
   })
 
   it('throws on asset with missing amount', () => {
-    const asset = ' EOS'
+    const asset = ' RIX'
     expect(() => parseAsset(asset)).toThrow(RicardianContractRenderError)
   })
 
@@ -40,12 +40,12 @@ describe('parseAsset', () => {
   })
 
   it('throws on asset decimal with no leading digit', () => {
-    const asset = '.45 EOS'
+    const asset = '.45 RIX'
     expect(() => parseAsset(asset)).toThrow(RicardianContractRenderError)
   })
 
   it('throws on lowercase symbol name', () => {
-    const asset = '1.45 eos'
+    const asset = '1.45 RIX'
     expect(() => parseAsset(asset)).toThrow(RicardianContractRenderError)
   })
 })

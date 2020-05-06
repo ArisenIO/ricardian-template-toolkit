@@ -29,7 +29,7 @@ icon: https://www.wlu.edu/images/advancement/icons/stock-transfer.png#e4289f04df
 
 # Super Multi Transfer with whole ABI Meta Data
 
-<p>This contract action is <strong>NOT</strong> a real one, and not related to \`eosio.token\` at all.<br/>
+<p>This contract action is <strong>NOT</strong> a real one, and not related to \`arisen.token\` at all.<br/>
 Just an example of testing all the contract parsings with handlebars.</p>
 
 ## Transfer Terms & Conditions
@@ -57,7 +57,7 @@ export default {
     context_free_actions: [],
     actions: [
       {
-        account: 'eosio.token',
+        account: 'arisen.token',
         name: 'multitransf',
         authorization: [
           {
@@ -68,12 +68,12 @@ export default {
         data: {
           from: 'alicejones',
           to: 'bobsmith',
-          quantities: ['123.0000 EOS', '456.0000 ABC', '789.0000 DEF'],
-          memos: ['<i>Super</i> EOS', 'I know you like <strong>ABC</strong> tokens'],
+          quantities: ['123.0000 RIX', '456.0000 ABC', '789.0000 DEF'],
+          memos: ['<i>Super</i> RIX', 'I know you like <strong>ABC</strong> tokens'],
         },
       },
       {
-        account: 'eosio.token',
+        account: 'arisen.token',
         name: 'transfer',
         authorization: [
           {
@@ -84,7 +84,7 @@ export default {
         data: {
           from: 'bobsmith',
           to: 'alicejones',
-          quantity: '123.0000 EOS',
+          quantity: '123.0000 RIX',
           memo: 'Testing.',
         },
       },
@@ -94,7 +94,7 @@ export default {
 
   abis: [
     {
-      account_name: 'eosio.token',
+      account_name: 'arisen.token',
       abi: {
         types: [
           {
@@ -254,7 +254,7 @@ export default {
             ],
           },
         ],
-        version: 'eosio::abi/1.0',
+        version: 'arisen::abi/1.0',
         abi_extensions: [],
         error_messages: [],
         ricardian_clauses: [
@@ -264,7 +264,7 @@ export default {
           },
           {
             id: 'ricardian_contract_images',
-            body: '![EOS ricardian_contract_images](https://files.readme.io/aeb2530-small-logo_2x.png#HA8HG03SH3R3)',
+            body: '![RIX ricardian_contract_images](https://files.readme.io/aeb2530-small-logo_2x.png#HA8HG03SH3R3)',
           },
           {
             id: 'ricardian_clause_interpolations',

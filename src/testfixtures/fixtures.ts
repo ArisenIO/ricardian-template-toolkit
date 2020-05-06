@@ -9,7 +9,7 @@ export const transferTransaction: string = `{
   "context_free_actions": [],
   "actions": [
     {
-      "account": "eosio.token",
+      "account": "arisen.token",
       "name": "transfer",
       "authorization": [
         {
@@ -20,12 +20,12 @@ export const transferTransaction: string = `{
       "data": {
         "from": "alicejones",
         "to": "bobsmith",
-        "quantity": "1500.0000 EOS",
+        "quantity": "1500.0000 RIX",
         "memo": "This is a test of the emergency broadcasting system."
       }
     },
     {
-      "account": "eosio.token",
+      "account": "arisen.token",
       "name": "transfer",
       "authorization": [
         {
@@ -36,12 +36,12 @@ export const transferTransaction: string = `{
       "data": {
         "from": "bobsmith",
         "to": "alicejones",
-        "quantity": "123.0000 EOS",
+        "quantity": "123.0000 RIX",
         "memo": "Testing."
       }
     },
     {
-      "account": "eosio.token",
+      "account": "arisen.token",
       "name": "transfer",
       "authorization": [
         {
@@ -52,7 +52,7 @@ export const transferTransaction: string = `{
       "data": {
         "from": "bobsmith",
         "to": "alicejones",
-        "quantity": "123.0000 EOS",
+        "quantity": "123.0000 RIX",
         "memo": "Testing.",
         "$metadata": {
           "summary": "Transfer from {{from}} to {{to}}"
@@ -73,7 +73,7 @@ export const indexedTransferTransaction: string = `{
   "context_free_actions": [],
   "actions": [
     {
-      "account": "eosio.token",
+      "account": "arisen.token",
       "name": "transfer",
       "authorization": [
         {
@@ -85,13 +85,13 @@ export const indexedTransferTransaction: string = `{
       "data": {
         "from": "alicejones",
         "to": "bobsmith",
-        "quantity": "1500.0000 EOS",
+        "quantity": "1500.0000 RIX",
         "memo": "This is a test of the emergency broadcasting system."
       },
       "$index": 0
     },
     {
-      "account": "eosio.token",
+      "account": "arisen.token",
       "name": "transfer",
       "authorization": [
         {
@@ -103,13 +103,13 @@ export const indexedTransferTransaction: string = `{
       "data": {
         "from": "bobsmith",
         "to": "alicejones",
-        "quantity": "123.0000 EOS",
+        "quantity": "123.0000 RIX",
         "memo": "Testing."
       },
       "$index": 1
     },
     {
-      "account": "eosio.token",
+      "account": "arisen.token",
       "name": "transfer",
       "authorization": [
         {
@@ -121,7 +121,7 @@ export const indexedTransferTransaction: string = `{
       "data": {
         "from": "bobsmith",
         "to": "alicejones",
-        "quantity": "123.0000 EOS",
+        "quantity": "123.0000 RIX",
         "memo": "Testing.",
         "$metadata": {
           "summary": "Transfer from {{from}} to {{to}}"
@@ -133,7 +133,7 @@ export const indexedTransferTransaction: string = `{
   "transaction_extensions": []
 }`
 
-export const eosioTokenAbi: string = `{
+export const arisenTokenAbi: string = `{
   "types": [
     {
       "type": "name",
@@ -265,7 +265,7 @@ export const eosioTokenAbi: string = `{
       ]
     }
   ],
-  "version": "eosio::abi/1.0",
+  "version": "arisen::abi/1.0",
   "abi_extensions": [],
   "error_messages": [],
   "ricardian_clauses": [
@@ -275,7 +275,7 @@ export const eosioTokenAbi: string = `{
     },
     {
       "id": "ricardian_contract_images",
-      "body": "![EOS ricardian_contract_images](https://files.readme.io/aeb2530-small-logo_2x.png#HA8HG03SH3R3)"
+      "body": "![RIX ricardian_contract_images](https://files.readme.io/aeb2530-small-logo_2x.png#HA8HG03SH3R3)"
     },
     {
       "id": "ricardian_clause_interpolations",

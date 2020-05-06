@@ -1,8 +1,8 @@
 const { RicardianContractFactory } = require('./dist/RicardianContractFactory')
-const { complexEosioTokenAbi, complexTransferTransaction } = require('./dist/testfixtures/complex-fixtures')
+const { complexArisenTokenAbi, complexTransferTransaction } = require('./dist/testfixtures/complex-fixtures')
 
 const complexTransaction = JSON.parse(complexTransferTransaction)
-const complexAbi = JSON.parse(complexEosioTokenAbi)
+const complexAbi = JSON.parse(complexArisenTokenAbi)
 
 const factory = new RicardianContractFactory()
 const complexRc = factory.create({

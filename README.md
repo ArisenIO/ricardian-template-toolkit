@@ -1,10 +1,10 @@
-# EOSIO.CDT Ricardian Template Toolkit ![EOSIO Alpha](https://img.shields.io/badge/EOSIO-Alpha-blue.svg)
+# ARISEN.CDT Ricardian Template Toolkit ![ARISEN Alpha](https://img.shields.io/badge/ARISEN-Alpha-blue.svg)
 
-This library is a new tool in the suite of tools from [EOSIO.CDT (Contract Development Toolkit)](https://github.com/EOSIO/eosio.cdt/tree/develop), and should allow for a more robust and rich environment for writing **Ricardian** contracts for your **EOSIO** smart contracts.
+This library is a new tool in the suite of tools from [ARISEN.CDT (Contract Development Toolkit)](https://github.com/ARISEN/ARISEN.cdt/tree/develop), and should allow for a more robust and rich environment for writing **Ricardian** contracts for your **ARISEN** smart contracts.
 
 ## Overview
 
-The Ricardian Template Toolkit is an implementation of a renderer for the [Ricardian Contract Specification](https://github.com/EOSIO/ricardian-spec) that demonstrates how Ricardian Contracts built to the specification can be displayed. This toolkit can be used by Authenticator developers to consistently render Ricardian Contracts and by Smart Contract developers as an authoring and testing tool.
+The Ricardian Template Toolkit is an implementation of a renderer for the [Ricardian Contract Specification](https://github.com/ARISEN/ricardian-spec) that demonstrates how Ricardian Contracts built to the specification can be displayed. This toolkit can be used by Authenticator developers to consistently render Ricardian Contracts and by Smart Contract developers as an authoring and testing tool.
 
 Together, the Ricardian Template Toolkit and Ricardian Contract Specification projects enable a clear understanding of the agreements to which users are consenting in Authenticators which ask them to sign transactions.
 
@@ -60,7 +60,7 @@ yarn example
 
 ## Ricardian Specification
 
-The Ricardian Specification and an example of a compliant Ricardian contract can now be found at https://github.com/EOSIO/ricardian-spec.
+The Ricardian Specification and an example of a compliant Ricardian contract can now be found at https://github.com/ARISEN/ricardian-spec.
 
 ## Usage
 
@@ -98,12 +98,12 @@ Be aware that for backward compatibility with contract specifications prior to `
 lacking a `spec_version` in the metadata are treated as following spec version `0.0.0`.
 
 ## Example
-The following is based on the [example from the Ricardian Contract Specification](https://github.com/EOSIO/ricardian-spec#example-template)
+The following is based on the [example from the Ricardian Contract Specification](https://github.com/ARISEN/ricardian-spec#example-template)
 
 Raw HTML Output
 ```
 I, <div class="variable data">bobsmith</div>, author of the blog post "<div class="variable data">An Example Post</div>", certify that I am the original author of the contents of this blog post and have attributed all external sources appropriately.<br />
-<div class="variable clauses">WARRANTY. The invoker of the contract action shall uphold its Obligations under this Contract in a timely and workmanlike manner, using knowledge and recommendations for performing the services which meet generally acceptable standards set forth by EOS.IO Blockchain Block Producers.</div><br  />
+<div class="variable clauses">WARRANTY. The invoker of the contract action shall uphold its Obligations under this Contract in a timely and workmanlike manner, using knowledge and recommendations for performing the services which meet generally acceptable standards set forth by RIX.IO Blockchain Block Producers.</div><br  />
 ```
 
 Styled HTML
@@ -128,7 +128,7 @@ Styled HTML
 
   <body>
     I, <div class="variable data">bobsmith</div>, author of the blog post "<div class="variable data">An Example Post</div>", certify that I am the original author of the contents of this blog post and have attributed all external sources appropriately.<br />
-    <div class="variable clauses">WARRANTY. The invoker of the contract action shall uphold its Obligations under this Contract in a timely and workmanlike manner, using knowledge and recommendations for performing the services which meet generally acceptable standards set forth by EOS.IO Blockchain Block Producers.</div><br />
+    <div class="variable clauses">WARRANTY. The invoker of the contract action shall uphold its Obligations under this Contract in a timely and workmanlike manner, using knowledge and recommendations for performing the services which meet generally acceptable standards set forth by RIX.IO Blockchain Block Producers.</div><br />
   </body>
 </html>
 ```
@@ -147,6 +147,6 @@ Rendered Styled HTML
 
 ## Important
 
-See LICENSE for copyright and license terms.  Block.one makes its contribution on a voluntary basis as a member of the EOSIO community and is not responsible for ensuring the overall performance of the software or any related applications.  We make no representation, warranty, guarantee or undertaking in respect of the software or any related documentation, whether expressed or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall we be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or documentation or the use or other dealings in the software or documentation. Any test results or performance figures are indicative and will not reflect performance under all conditions.  Any reference to any third party or third-party product, service or other resource is not an endorsement or recommendation by Block.one.  We are not responsible, and disclaim any and all responsibility and liability, for your use of or reliance on any of these resources. Third-party resources may be updated, changed or terminated at any time, so the information here may be out of date or inaccurate.  Any person using or offering this software in connection with providing software, goods or services to third parties shall advise such third parties of these license terms, disclaimers and exclusions of liability.  Block.one, EOSIO, EOSIO Labs, EOS, the heptahedron and associated logos are trademarks of Block.one.
+See LICENSE for copyright and license terms.  Block.one makes its contribution on a voluntary basis as a member of the ARISEN community and is not responsible for ensuring the overall performance of the software or any related applications.  We make no representation, warranty, guarantee or undertaking in respect of the software or any related documentation, whether expressed or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall we be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or documentation or the use or other dealings in the software or documentation. Any test results or performance figures are indicative and will not reflect performance under all conditions.  Any reference to any third party or third-party product, service or other resource is not an endorsement or recommendation by Block.one.  We are not responsible, and disclaim any and all responsibility and liability, for your use of or reliance on any of these resources. Third-party resources may be updated, changed or terminated at any time, so the information here may be out of date or inaccurate.  Any person using or offering this software in connection with providing software, goods or services to third parties shall advise such third parties of these license terms, disclaimers and exclusions of liability.  Block.one, ARISEN, ARISEN Labs, RIX, the heptahedron and associated logos are trademarks of Block.one.
 
 Wallets and related components are complex software that require the highest levels of security.  If incorrectly built or used, they may compromise users’ private keys and digital assets. Wallet applications and related components should undergo thorough security evaluations before being used.  Only experienced developers should work with this software.

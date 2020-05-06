@@ -1,16 +1,16 @@
 import * as utils from './contractUtils'
 
 import {
-  complexEosioTokenAbi,
+  complexArisenTokenAbi,
   complexTransferTransaction,
 } from '../testfixtures/complex-fixtures'
-import { eosioTokenAbi, transferTransaction } from '../testfixtures/fixtures'
+import { arisenTokenAbi, transferTransaction } from '../testfixtures/fixtures'
 
 const complexTransaction = JSON.parse(complexTransferTransaction)
-const complexAbi = JSON.parse(complexEosioTokenAbi)
+const complexAbi = JSON.parse(complexArisenTokenAbi)
 
 const transaction = JSON.parse(transferTransaction)
-const abi = JSON.parse(eosioTokenAbi)
+const abi = JSON.parse(arisenTokenAbi)
 
 describe('getContractSpecVersion', () => {
   it('returns the default spec version if none found', () => {
