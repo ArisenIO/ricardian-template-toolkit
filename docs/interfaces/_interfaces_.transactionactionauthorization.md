@@ -1,4 +1,4 @@
-[ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md) > [TransactionActionAuthorization](../interfaces/_interfaces_.transactionactionauthorization.md)
+[arisen-ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md) > [TransactionActionAuthorization](../interfaces/_interfaces_.transactionactionauthorization.md)
 
 # Interface: TransactionActionAuthorization
 
@@ -26,7 +26,7 @@
 
 **● actor**: *`string`*
 
-*Defined in [interfaces.ts:29](https://github.com/ARISEN/ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L29)*
+*Defined in [interfaces.ts:29](https://github.com/ARISEN/arisen-ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L29)*
 
 ___
 <a id="permission"></a>
@@ -35,7 +35,7 @@ ___
 
 **● permission**: *`string`*
 
-*Defined in [interfaces.ts:30](https://github.com/ARISEN/ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L30)*
+*Defined in [interfaces.ts:30](https://github.com/ARISEN/arisen-ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L30)*
 
 ___
 

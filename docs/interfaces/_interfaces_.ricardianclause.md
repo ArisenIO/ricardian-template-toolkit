@@ -1,4 +1,4 @@
-[ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md) > [RicardianClause](../interfaces/_interfaces_.ricardianclause.md)
+[arisen-ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md) > [RicardianClause](../interfaces/_interfaces_.ricardianclause.md)
 
 # Interface: RicardianClause
 
@@ -23,7 +23,7 @@
 
 **● body**: *`string`*
 
-*Defined in [interfaces.ts:3](https://github.com/ARISEN/ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L3)*
+*Defined in [interfaces.ts:3](https://github.com/ARISEN/arisen-ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L3)*
 
 ___
 <a id="id"></a>
@@ -32,7 +32,7 @@ ___
 
 **● id**: *`string`*
 
-*Defined in [interfaces.ts:2](https://github.com/ARISEN/ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L2)*
+*Defined in [interfaces.ts:2](https://github.com/ARISEN/arisen-ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L2)*
 
 ___
 

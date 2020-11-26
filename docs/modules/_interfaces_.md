@@ -1,4 +1,4 @@
-[ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md)
+[arisen-ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md)
 
 # External module: "interfaces"
 

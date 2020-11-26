@@ -1,4 +1,4 @@
-[ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md) > [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md)
+[arisen-ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md) > [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md)
 
 # Interface: RicardianContractProcessor
 
@@ -29,7 +29,7 @@
 
 ▸ **getSpecVersion**(): [SpecVersion](_interfaces_.specversion.md)
 
-*Defined in [interfaces.ts:74](https://github.com/ARISEN/ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L74)*
+*Defined in [interfaces.ts:74](https://github.com/ARISEN/arisen-ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L74)*
 
 **Returns:** [SpecVersion](_interfaces_.specversion.md)
 
@@ -40,7 +40,7 @@ ___
 
 ▸ **process**(config: *[RicardianContractConfig](_interfaces_.ricardiancontractconfig.md)*): [RicardianContract](_interfaces_.ricardiancontract.md)
 
-*Defined in [interfaces.ts:75](https://github.com/ARISEN/ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L75)*
+*Defined in [interfaces.ts:75](https://github.com/ARISEN/arisen-ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L75)*
 
 **Parameters:**
 

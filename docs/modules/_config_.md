@@ -1,4 +1,4 @@
-[ricardian-template-toolkit](../README.md) > ["config"](../modules/_config_.md)
+[arisen-ricardian-template-toolkit](../README.md) > ["config"](../modules/_config_.md)
 
 # External module: "config"
 
@@ -18,7 +18,7 @@
 
 **● MAX_PASSES**: *`3`* = 3
 
-*Defined in [config.ts:1](https://github.com/ARISEN/ricardian-template-toolkit/blob/ae088d5/src/config.ts#L1)*
+*Defined in [config.ts:1](https://github.com/ARISEN/arisen-ricardian-template-toolkit/blob/ae088d5/src/config.ts#L1)*
 
 ___
 

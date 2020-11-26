@@ -1,4 +1,4 @@
-[ricardian-template-toolkit](../README.md) > ["RicardianContractRenderError"](../modules/_ricardiancontractrendererror_.md) > [HtmlValidationErrorArgs](../interfaces/_ricardiancontractrendererror_.htmlvalidationerrorargs.md)
+[arisen-ricardian-template-toolkit](../README.md) > ["RicardianContractRenderError"](../modules/_ricardiancontractrendererror_.md) > [HtmlValidationErrorArgs](../interfaces/_ricardiancontractrendererror_.htmlvalidationerrorargs.md)
 
 # Interface: HtmlValidationErrorArgs
 
@@ -23,7 +23,7 @@
 
 **● reason**: *`string`*
 
-*Defined in [RicardianContractRenderError.ts:3](https://github.com/ARISEN/ricardian-template-toolkit/blob/ae088d5/src/RicardianContractRenderError.ts#L3)*
+*Defined in [RicardianContractRenderError.ts:3](https://github.com/ARISEN/arisen-ricardian-template-toolkit/blob/ae088d5/src/RicardianContractRenderError.ts#L3)*
 
 ___
 <a id="tag"></a>
@@ -32,7 +32,7 @@ ___
 
 **● tag**: *`string`*
 
-*Defined in [RicardianContractRenderError.ts:2](https://github.com/ARISEN/ricardian-template-toolkit/blob/ae088d5/src/RicardianContractRenderError.ts#L2)*
+*Defined in [RicardianContractRenderError.ts:2](https://github.com/ARISEN/arisen-ricardian-template-toolkit/blob/ae088d5/src/RicardianContractRenderError.ts#L2)*
 
 ___
 

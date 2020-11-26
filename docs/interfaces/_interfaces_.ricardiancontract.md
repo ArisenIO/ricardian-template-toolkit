@@ -1,4 +1,4 @@
-[ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md) > [RicardianContract](../interfaces/_interfaces_.ricardiancontract.md)
+[arisen-ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md) > [RicardianContract](../interfaces/_interfaces_.ricardiancontract.md)
 
 # Interface: RicardianContract
 
@@ -23,7 +23,7 @@
 
 ▸ **getHtml**(): `string`
 
-*Defined in [interfaces.ts:69](https://github.com/ARISEN/ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L69)*
+*Defined in [interfaces.ts:69](https://github.com/ARISEN/arisen-ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L69)*
 
 **Returns:** `string`
 
@@ -34,7 +34,7 @@ ___
 
 ▸ **getMetadata**(): [ContractMetadata](_interfaces_.contractmetadata.md)
 
-*Defined in [interfaces.ts:70](https://github.com/ARISEN/ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L70)*
+*Defined in [interfaces.ts:70](https://github.com/ARISEN/arisen-ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L70)*
 
 **Returns:** [ContractMetadata](_interfaces_.contractmetadata.md)
 

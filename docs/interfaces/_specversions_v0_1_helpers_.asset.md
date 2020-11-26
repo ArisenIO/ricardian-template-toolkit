@@ -1,4 +1,4 @@
-[ricardian-template-toolkit](../README.md) > ["specVersions/v0.1/helpers"](../modules/_specversions_v0_1_helpers_.md) > [Asset](../interfaces/_specversions_v0_1_helpers_.asset.md)
+[arisen-ricardian-template-toolkit](../README.md) > ["specVersions/v0.1/helpers"](../modules/_specversions_v0_1_helpers_.md) > [Asset](../interfaces/_specversions_v0_1_helpers_.asset.md)
 
 # Interface: Asset
 
@@ -23,7 +23,7 @@
 
 **● amount**: *`string`*
 
-*Defined in [specVersions/v0.1/helpers.ts:4](https://github.com/ARISEN/ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.1/helpers.ts#L4)*
+*Defined in [specVersions/v0.1/helpers.ts:4](https://github.com/ARISEN/arisen-ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.1/helpers.ts#L4)*
 
 ___
 <a id="symbol"></a>
@@ -32,7 +32,7 @@ ___
 
 **● symbol**: *`string`*
 
-*Defined in [specVersions/v0.1/helpers.ts:5](https://github.com/ARISEN/ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.1/helpers.ts#L5)*
+*Defined in [specVersions/v0.1/helpers.ts:5](https://github.com/ARISEN/arisen-ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.1/helpers.ts#L5)*
 
 ___
 

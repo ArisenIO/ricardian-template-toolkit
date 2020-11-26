@@ -1,13 +1,13 @@
 {
-  "name": "ricardian-template-toolkit",
-  "version": "0.2.0",
+  "name": "arisen-ricardian-template-toolkit",
+  "version": "1.0.0",
   "description": "Ricardian Contract Template Toolkit for ARISEN applications.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "bin": {
     "rc": "bin/rc"
   },
-  "repository": "https://github.com/ARISEN/ricardian-template-toolkit",
+  "repository": "https://github.com/ARISEN/arisen-ricardian-template-toolkit",
   "author": {
     "name": "block.one",
     "url": "https://block.one"

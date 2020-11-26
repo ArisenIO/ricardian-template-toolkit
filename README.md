@@ -1,10 +1,10 @@
 # ARISEN.CDT Ricardian Template Toolkit ![ARISEN Alpha](https://img.shields.io/badge/ARISEN-Alpha-blue.svg)
 
-This library is a new tool in the suite of tools from [ARISEN.CDT (Contract Development Toolkit)](https://github.com/ARISEN/ARISEN.cdt/tree/develop), and should allow for a more robust and rich environment for writing **Ricardian** contracts for your **ARISEN** smart contracts.
+This library is a new tool in the suite of tools from [ARISEN.CDT (Contract Development Toolkit)](https://github.com/arisenio/arisen.cdt), and should allow for a more robust and rich environment for writing **Ricardian** contracts for your **ARISEN** smart contracts.
 
 ## Overview
 
-The Ricardian Template Toolkit is an implementation of a renderer for the [Ricardian Contract Specification](https://github.com/ARISEN/ricardian-spec) that demonstrates how Ricardian Contracts built to the specification can be displayed. This toolkit can be used by Authenticator developers to consistently render Ricardian Contracts and by Smart Contract developers as an authoring and testing tool.
+The Ricardian Template Toolkit is an implementation of a renderer for the [Ricardian Contract Specification](https://github.com/ARISENIO/ricardian-spec) that demonstrates how Ricardian Contracts built to the specification can be displayed. This toolkit can be used by Authenticator developers to consistently render Ricardian Contracts and by Smart Contract developers as an authoring and testing tool.
 
 Together, the Ricardian Template Toolkit and Ricardian Contract Specification projects enable a clear understanding of the agreements to which users are consenting in Authenticators which ask them to sign transactions.
 
@@ -25,7 +25,7 @@ Foundational Inspiration for Metadata:
 
 ## Installation
 
-`yarn add ricardian-template-toolkit`
+`yarn add arisen-ricardian-template-toolkit`
 
 ## Command Line Tool
 
@@ -60,14 +60,14 @@ yarn example
 
 ## Ricardian Specification
 
-The Ricardian Specification and an example of a compliant Ricardian contract can now be found at https://github.com/ARISEN/ricardian-spec.
+The Ricardian Specification and an example of a compliant Ricardian contract can now be found at https://github.com/ARISENIO/ricardian-spec.
 
 ## Usage
 
 Usage is very straightforward:
 
 ```javascript
-import { RicardianContractFactory} from 'ricardian-template-toolkit'
+import { RicardianContractFactory} from 'arisen-ricardian-template-toolkit'
 
 ...
 
@@ -98,12 +98,12 @@ Be aware that for backward compatibility with contract specifications prior to `
 lacking a `spec_version` in the metadata are treated as following spec version `0.0.0`.
 
 ## Example
-The following is based on the [example from the Ricardian Contract Specification](https://github.com/ARISEN/ricardian-spec#example-template)
+The following is based on the [example from the Ricardian Contract Specification](https://github.com/ARISENIO/ricardian-spec#example-template)
 
 Raw HTML Output
 ```
 I, <div class="variable data">bobsmith</div>, author of the blog post "<div class="variable data">An Example Post</div>", certify that I am the original author of the contents of this blog post and have attributed all external sources appropriately.<br />
-<div class="variable clauses">WARRANTY. The invoker of the contract action shall uphold its Obligations under this Contract in a timely and workmanlike manner, using knowledge and recommendations for performing the services which meet generally acceptable standards set forth by RIX.IO Blockchain Block Producers.</div><br  />
+<div class="variable clauses">WARRANTY. The invoker of the contract action shall uphold its Obligations under this Contract in a timely and workmanlike manner, using knowledge and recommendations for performing the services which meet generally acceptable standards set forth by ARISEN Blockchain Block Producers.</div><br  />
 ```
 
 Styled HTML
@@ -128,7 +128,7 @@ Styled HTML
 
   <body>
     I, <div class="variable data">bobsmith</div>, author of the blog post "<div class="variable data">An Example Post</div>", certify that I am the original author of the contents of this blog post and have attributed all external sources appropriately.<br />
-    <div class="variable clauses">WARRANTY. The invoker of the contract action shall uphold its Obligations under this Contract in a timely and workmanlike manner, using knowledge and recommendations for performing the services which meet generally acceptable standards set forth by RIX.IO Blockchain Block Producers.</div><br />
+    <div class="variable clauses">WARRANTY. The invoker of the contract action shall uphold its Obligations under this Contract in a timely and workmanlike manner, using knowledge and recommendations for performing the services which meet generally acceptable standards set forth by ARISEN Blockchain Block Producers.</div><br />
   </body>
 </html>
 ```

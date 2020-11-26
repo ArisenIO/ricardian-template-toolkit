@@ -1,4 +1,4 @@
-[ricardian-template-toolkit](../README.md) > ["RicardianContractRenderError"](../modules/_ricardiancontractrendererror_.md)
+[arisen-ricardian-template-toolkit](../README.md) > ["RicardianContractRenderError"](../modules/_ricardiancontractrendererror_.md)
 
 # External module: "RicardianContractRenderError"
 

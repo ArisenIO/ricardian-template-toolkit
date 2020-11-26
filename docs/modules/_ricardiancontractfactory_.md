@@ -1,4 +1,4 @@
-[ricardian-template-toolkit](../README.md) > ["RicardianContractFactory"](../modules/_ricardiancontractfactory_.md)
+[arisen-ricardian-template-toolkit](../README.md) > ["RicardianContractFactory"](../modules/_ricardiancontractfactory_.md)
 
 # External module: "RicardianContractFactory"
 

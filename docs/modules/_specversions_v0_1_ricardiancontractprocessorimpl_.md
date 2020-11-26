@@ -1,4 +1,4 @@
-[ricardian-template-toolkit](../README.md) > ["specVersions/v0.1/RicardianContractProcessorImpl"](../modules/_specversions_v0_1_ricardiancontractprocessorimpl_.md)
+[arisen-ricardian-template-toolkit](../README.md) > ["specVersions/v0.1/RicardianContractProcessorImpl"](../modules/_specversions_v0_1_ricardiancontractprocessorimpl_.md)
 
 # External module: "specVersions/v0.1/RicardianContractProcessorImpl"
 
@@ -22,7 +22,7 @@
 
 **implVersion**: *`object`*
 
-*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:4](https://github.com/ARISEN/ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L4)*
+*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:4](https://github.com/ARISEN/arisen-ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L4)*
 
 <a id="implversion.major"></a>
 
@@ -30,7 +30,7 @@
 
 **● major**: *`number`* = 0
 
-*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:5](https://github.com/ARISEN/ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L5)*
+*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:5](https://github.com/ARISEN/arisen-ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L5)*
 
 ___
 <a id="implversion.minor"></a>
@@ -39,7 +39,7 @@ ___
 
 **● minor**: *`number`* = 1
 
-*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:6](https://github.com/ARISEN/ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L6)*
+*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:6](https://github.com/ARISEN/arisen-ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L6)*
 
 ___
 
